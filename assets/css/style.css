@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', serif;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #191919;
+    padding: 20px;
+    background-color: #ffc017;
+    font-size: 0.9em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+header svg {
+    margin-left: 60px;
+}
+
+nav {
+    margin-right: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #191919;
+}
+
+.btnBlack {
+    background-color: #191919;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.getStarted {
+    color: white;
+}
+
+section {
+    background-color: #ffc017;
+    border-bottom: 1px solid #191919;
+    position: relative;
+    display: flex;
+}
+
+section svg {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    right: -500px;
+}
+
+h1 {
+    font-family: 'Spectral', serif;
+    font-size: 5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div>p {
+    line-height: 1.2em;
+    margin-bottom: 30px;
+}
+
+div>a {
+    text-decoration: none;
+    background-color: #191919;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+
+}
+
+section>div {
+    margin-left: 80px;
+    padding-bottom: 90px;
+}
+
+.containerTrending {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.articleTrending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+    flex: 0 0 calc(30% - 10px);
+}
+.titleTrending {
+    display: flex;
+    align-items: center;
+    margin: 40px 80px 20px 80px;
+}
+
+.imgAutore {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.imgAutore > img {
+    border-radius: 50%;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+}
+
+h4{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.articleTrending span {
+    font-size: 2em;
+    font-weight: bold;
+    opacity: 0.2;
+    margin-right: 10px;
+}
+
+p:last-child {
+    color: grey;
+    display: flex;
+}
+
+aside{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.asideArticleContainer{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+.asideContainer {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+.asideDate {
+    color: grey;
+    display: flex;
+    align-items: center;
+}
+
+.asideDate a {
+    background-color: rgba(128, 128, 128, 0.123);
+    color: grey;
+}
+
+.asideArticleContainer img:last-child {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.asideArticleContainer > img {
+    width: 30%;
+    height: auto;
+    margin: 0;
+}
+
+.footer{
+    margin-left: 40px;
+}
+
+.linkFooter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.footer  a {
+    background-color: transparent;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+}
+
+.sezioneContact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sezioneContact a {
+    border: none;
+}
+
+
+@keyframes fadeInOut2 {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+
+main section svg path:nth-child(1) {
+    animation: fadeInOut2 1s infinite;
+    animation-delay: 0s;
+}
+
+main section svg path:nth-child(2) {
+    animation: fadeInOut2 1s infinite;
+    animation-delay: 4s;
+}
+
+main section svg path:nth-child(3) {
+    animation: fadeInOut2 1s infinite;
+    animation-delay: 5s;
+}
+
+
+main section svg path:nth-child(4) {
+    animation: fadeInOut2 1s infinite;
+    animation-delay: 3s;
+}
+
+
+
+
+
+
+
